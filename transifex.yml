@@ -8,3 +8,4 @@ filters:
 settings:
   pr_branch_name: transifex_<br_unique_id>
 git:
+  debug: true

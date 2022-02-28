@@ -1,11 +1,10 @@
-filters:
-- filter_type: dir
-  file_format: KEYVALUEJSON
-  source_file_extension: json
-  source_language: fr_FR
-  source_file_dir: langs
-  translation_files_expression: 'langs/<lang>.json'
-settings:
-  pr_branch_name: transifex_<br_unique_id>
 git:
-  debug: true
+  filters:
+  - filter_type: dir
+    file_format: KEYVALUEJSON
+    source_file_extension: json
+    source_language: fr_FR
+    source_file_dir: langs
+    translation_files_expression: 'langs/<lang>.json'
+  settings:
+    pr_branch_name: transifex_<br_unique_id>
